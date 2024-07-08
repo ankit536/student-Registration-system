@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Manage Student Registration">
+    <meta name="keywords" content="System Mangement,Student Registration System,Manage Student Records">
+    <title>Student Registration System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Student Registration Form</h1>
+        <p>Add New Student And Manage Student Records</p>
+        <h2>Login: @Ankit</h2>
+    </header>
+    <main>
+        <section class="formSection">
+            <div class="formBox">
+                <form id="stdForm">
+                    <label for="stdId">Student Id</label>
+                    <input type="number" id="stdId" placeholder="Enter Student Id" required autocomplete="off">
+                    <label for="stdName">Student Name</label>
+                    <input type="text" id="stdName" placeholder="Enter Student Name" required autocomplete="off">
+                    <label for="stdMail">Email Id</label>
+                    <input type="email" id="stdMail" placeholder="Enter Student Email" required autocomplete="off">
+                    <label for="stdNum">Contact No.</label>
+                    <input type="number" id="stdNum" placeholder="Enter Contact Number" required autocomplete="off">
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </section>
+        <section class="dataSection">
+            <h2>Student Data</h2>
+            <div id="dataSectionTable">
+                <!-- Display Student Data Using Js -->
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
